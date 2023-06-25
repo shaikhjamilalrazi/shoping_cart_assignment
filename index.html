@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Display and Shopping Cart</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Product Display</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Product List</h2>
+                    <ul id="product-list" class="list-group"></ul>
+                </div>
+                <div class="col-md-6">
+                    <h2>Shopping Cart</h2>
+                    <ul id="shopping-cart" class="list-group"></ul>
+                    <p class="mt-3">Total: $<span id="total-amount">0</span></p>
+                    <button id="clear-cart-btn" class="btn btn-danger">
+                        Clear Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/JS/main.js" type="module"></script>
+    </body>
+</html>
