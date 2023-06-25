@@ -49,13 +49,9 @@ shoppingCart.addEventListener("click", (event) => {
     if (target.classList.contains("increase-quantity-btn")) {
         const cartItemId = target.dataset.cartItemId;
         increaseQuantity(cartItemId);
-
-        console.log("increase clicked");
     } else if (target.classList.contains("decrease-quantity-btn")) {
         const cartItemId = target.dataset.cartItemId;
         decreaseQuantity(cartItemId);
-
-        console.log("decrease clicked");
     } else if (target.classList.contains("remove-item-btn")) {
         const cartItemId = target.dataset.cartItemId;
         removeItem(cartItemId);
